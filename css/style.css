@@ -475,6 +475,48 @@ img {
 .footer-social-link:hover {
   background-color: var(--accent-color);
 }
+.footer-form {
+  margin-left: 93px;
+}
+.footer-form-field {
+  display: flex;
+}
+.footer-form-title {
+  margin-bottom: 20px;
+}
+.footer-submit-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  padding: 10px 30px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+.footer-btn-icon {
+  fill: var(--primary-background-color);
+  margin-left: 10px;
+}
+.footer-form input {
+  margin: 0;
+  height: 50px;
+  width: 358px;
+  padding-left: 16px;
+  color: var(--secondary-text-color);
+  background-color: var(--background-hero-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 /* JUST FOCUS AND HOVER */
 .site-nav .site-nav-link:focus,
 .site-nav .site-nav-link:hover {
@@ -501,6 +543,11 @@ img {
 .clients-link .link:focus,
 .clients-link .link:hover {
   color: var(--accent-color);
+}
+.footer-submit-btn:hover,
+.footer-submit-btn:focus {
+  background-color: var(--primary--button-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* LOGO */
