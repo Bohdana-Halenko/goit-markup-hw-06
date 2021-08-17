@@ -203,7 +203,13 @@ img {
   align-items: center;
 }
 .modal-icon {
-  fill: #000000;
+  fill:currentColor;
+  align-items: center;
+  transition: color 250ms var(--time-function);
+}
+.modal-icon:hover,
+.modal-icon:focus {
+  color: var(--accent-color);
 }
 
 /*BENEFITS*/
@@ -423,7 +429,7 @@ img {
   font-size: 14px;
   color: #ffffff;
 }
-.footer-address-list .link {
+.footer-address-list {
   color: var(--secondary-address-color);
   font-style: normal;
   font-size: 14px;
@@ -540,8 +546,8 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.clients-link .link:focus,
-.clients-link .link:hover {
+.clients-link:focus,
+.clients-link:hover {
   color: var(--accent-color);
 }
 .footer-submit-btn:hover,
